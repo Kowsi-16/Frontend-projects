@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 25%;
+    height: 46px;
+    background-color:#e8e5e480;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 10px;
+    border-radius: 20px;
+
+}
+.anchor {
+     padding-left: 5px;
+     padding-right: 10px;
+     background-color: #fff;
+     border: 10px solid white;
+     border-radius: 20px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+
+}
+.section{
+    width: 50%;
+    margin-left:25%;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 70px;
+    
+}
+.types{
+    margin-top:50px;
+    margin-left: 36%;
+}
+.types ul .list1{
+    display: inline;
+    border-radius: 25px;
+    background-color: #e8e5e480;
+    color: black;
+    font-size: 14px;
+    padding: 8px;
+} 
+li{
+    margin-left: 5px;
+}
+.list{
+     background-color: #fff;
+     display: inline;
+     /* border: 10px solid white; */
+     /* border-radius: 20px; */
+}
+
+.image{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.d{
+    padding-right:10px;
+    padding-left:10px;
+    margin-top: 25px;
+
+}
+img{
+    border-radius: 20px;
+}
+
+
+.d video{   
+    border-radius: 20px;
+}
+
+video{
+    object-fit: cover;
+}
+
+.aa h4{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 130px;
+}
+.aa a{
+    color: #7f7f7f;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 41%;
+    margin-bottom: 40px;
+
+}
+
+.mail{
+    padding-top: 140px;
+    padding-left: 5%;
+    display: flex;
+}
+.link {
+    padding-top: 5px;
+     margin-left: 55%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-left:5px;
+    
+    
+    
+}
+@media screen and (max-width:720px) {
+    .nav{
+        width:250px;
+        padding-right:15px;
+    }
+    .types{
+        display: none;
+    }
+    .section {
+        margin-left:5%;
+        font-size:290%;
+        width:90%;
+        /* margin-right: 25%; */
+    }
+    .aa h4{
+        padding-left: 15%;
+    }
+    .mail{
+        display: block;
+        padding-left: 47%;
+    }
+    .link {
+        margin-left:2px;
+   }
+    .mail img{
+        padding-left: 65px;
+        
+    }
+    .mail p{
+        padding-left: 25px;
+    }
+   
+    .image{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+   
+}

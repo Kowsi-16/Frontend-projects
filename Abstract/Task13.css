@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .abstract {
+    font-size: 25px;
+    
+  }
+
+  .helpcenter {
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 24px;
+    
+  }
+
+  .top {
+    font-size: 25px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 0% 80px;
+    height: 75px;
+  }
+
+  button {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 25px;
+
+  }
+
+  .top img {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 5%;
+    
+  
+  }
+
+  .submit {
+    margin-left: 35%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .signin {
+    background-color: #4C5FD5;
+    color: white;
+    outline: none;
+  }
+
+  .main {
+    background-color: #dadbf1;
+    width: auto;
+    text-align: center;
+    height: 300px;
+    font-size: 35px;
+  }
+
+  h1 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+
+  input {
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+
+  .content {
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    text-align: justify;
+    display: flex;
+    padding: 5px;
+    font-size: 19px;
+
+  }
+
+  .img {
+    margin-left: 10%;
+  }
+
+  .aa {
+    margin-left: 1%;
+  }
+
+  .down {
+    display: flex;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer {
+    margin-top: 4%;
+    margin-left: 6%;
+  }
+
+  h5 {
+    font-size: 30px;
+
+  }
+
+  h3 {
+    font-size: 27px;
+   
+  }
+
+  .aa p {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+
+  .a p {
+    padding-top: 10px;
+    font-size: 25px;
+  }
+
+  .alink {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 23px;
+  }
+
+  .help button {
+    font-size: 23px;
+    border: none;
+    border-radius: 30px;
+    background-color: #4C5FD5;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+  }
+
+  @media screen and (max-width:800px) {
+
+    .content{
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      margin-top: 20px;
+    }
+    .aa{
+      margin-top: 20px;
+    }
+    
+    .down{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 20px;
+    }
+    .submit,.signin{
+      display: none;
+    }
+  }
